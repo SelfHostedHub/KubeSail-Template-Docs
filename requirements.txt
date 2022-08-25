@@ -1,0 +1,14 @@
+mkdocs
+pymdown-extensions
+markdown-grid-tables
+git+https://github.com/tableau-tables/python-tableau-parser
+fontawesome-markdown
+git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+mkdocs-git-revision-date-localized-plugin
+mkdocs-git-committers-plugin-2
+mkdocs-git-authors-plugin
+mkdocs-embed-external-markdown
+jinja2
+mkdocs-material-extensions
+pygments
+mkdocs-include-markdown-plugin

@@ -1,0 +1,84 @@
+site_name: Kubesail Templates Wiki
+copyright: "Copyright &copy; 2022 K8s.rocks."
+site_url: https://kubesail.k8s.rocks
+repo_url: https://github.com/SelfHostedHub/KubeSail-Template-Docs
+repo_name: SelfHostedHub/KubeSail-Template-Docs
+edit_uri: edit/main/docs/
+nav:
+        - Home: README.md
+       
+theme:
+        name: material
+        custom_dir: overrides
+        highlightjs: true
+        hljs_languages:
+                - yaml
+        icon:
+                repo: fontawesome/brands/github
+        titles_only: false
+        favicon: static/midjourney.png
+        logo: static/midjourney.png
+        features:
+                - navigation.instant
+                - navigation.prune
+                - announce.dismiss
+        palette:
+                - media: "(prefers-color-scheme: light)"
+                  scheme: default
+                  primary: blue
+                  toggle:
+                          icon: material/weather-sunny
+                          name: Switch to dark mode
+                - media: "(prefers-color-scheme: dark)"
+                  scheme: slate
+                  primary: blue
+                  toggle:
+                          icon: material/weather-night
+                          name: Switch to light mode
+markdown_extensions:
+        - toc:
+                  permalink: "#"
+                  toc_depth: "1-2"
+        - smarty
+        - admonition
+        - footnotes
+        - codehilite
+        - pymdownx.arithmatex
+        - pymdownx.betterem:
+                  smart_enable: all
+        - pymdownx.caret
+        - pymdownx.critic
+        - pymdownx.details
+        - pymdownx.emoji:
+                  emoji_generator: !!python/name:pymdownx.emoji.to_svg
+                  emoji_index: !!python/name:materialx.emoji.twemoji
+        - pymdownx.inlinehilite
+        - pymdownx.magiclink
+        - pymdownx.mark
+        - pymdownx.smartsymbols
+        - pymdownx.superfences
+        - pymdownx.tabbed:
+                  alternate_style: true
+        - pymdownx.tasklist:
+                  custom_checkbox: true
+        - pymdownx.tilde
+        - fontawesome_markdown
+        - tables
+        - attr_list
+        - md_in_html
+plugins:
+  - search # necessary for search to work
+  - git-revision-date-localized:
+      type: datetime
+  - git-committers:
+      repository: aihubgg/MidJourney-Wiki
+      token: !ENV GH_TOKEN
+  - social
+  - external-markdown
+  - meta
+  - tags
+  - include-markdown
+extra:
+  social:
+                - icon: fontawesome/brands/discord
+                  link: "https://discord.gg/
