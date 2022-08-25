@@ -78,7 +78,3 @@ plugins:
   - meta
   - tags
   - include-markdown
-extra:
-  social:
-                - icon: fontawesome/brands/discord
-                  link: "https://discord.gg/
