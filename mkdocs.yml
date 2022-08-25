@@ -16,8 +16,8 @@ theme:
         icon:
                 repo: fontawesome/brands/github
         titles_only: false
-        favicon: static/midjourney.png
-        logo: static/midjourney.png
+        favicon: static/kubesail.png
+        logo: static/kubesail.png
         features:
                 - navigation.instant
                 - navigation.prune
