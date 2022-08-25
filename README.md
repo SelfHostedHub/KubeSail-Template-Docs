@@ -1,11 +1,7 @@
-# Welcome to the MidJourney Community Wiki
+# Welcome to the KubeSail Template Docs
 *WIP Docs*
 
 Feel Free to open a PR, or leave an issue to add information!
-
-We also take requests in the Discord!
-
-Join our [Discord!](https://discord.gg/CN4xnR9sEa)
 
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
