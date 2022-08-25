@@ -3,7 +3,7 @@
 
 Feel Free to open a PR, or leave an issue to add information!
 
-[KubeSail](https://kubesail.com)
+[KubeSail](https://kubesail.com) Offical site!
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
