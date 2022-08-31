@@ -6,7 +6,14 @@ repo_name: SelfHostedHub/KubeSail-Template-Docs
 edit_uri: edit/main/docs/
 nav:
         - Home: README.md
-       
+        - Template Docs:
+                - Overview: Template-Docs/Overview.md
+                - Outline Wiki:
+                        - Overview: Template-Docs/Outline/Overview.md
+                        - Authentication:
+                                - Overview: Template-Docs/Outline/Authentication/Overview.md
+                                - Google Sign In: Template-Docs/Outline/Authentication/Google.md
+
 theme:
         name: material
         custom_dir: overrides
@@ -17,7 +24,7 @@ theme:
                 repo: fontawesome/brands/github
         titles_only: false
         favicon: static/kubesail.png
-        logo: static/kubesail.png
+        logo: static/kubesail.svg
         features:
                 - navigation.instant
                 - navigation.prune
@@ -25,13 +32,13 @@ theme:
         palette:
                 - media: "(prefers-color-scheme: light)"
                   scheme: default
-                  primary: blue
+                  primary: 05366E
                   toggle:
                           icon: material/weather-sunny
                           name: Switch to dark mode
                 - media: "(prefers-color-scheme: dark)"
                   scheme: slate
-                  primary: blue
+                  primary: 05366E
                   toggle:
                           icon: material/weather-night
                           name: Switch to light mode
