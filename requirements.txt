@@ -1,6 +1,7 @@
 mkdocs
 pymdown-extensions
 markdown-grid-tables
+BeautifulSoup4
 git+https://github.com/tableau-tables/python-tableau-parser
 fontawesome-markdown
 git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
