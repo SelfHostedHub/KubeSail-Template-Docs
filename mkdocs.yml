@@ -45,8 +45,7 @@ theme:
                           name: Switch to light mode
 markdown_extensions:
         - toc:
-                  permalink: "#"
-                  toc_depth: "1-2"
+                  permalink: true
         - smarty
         - admonition
         - footnotes
