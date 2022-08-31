@@ -76,7 +76,7 @@ plugins:
   - git-revision-date-localized:
       type: datetime
   - git-committers:
-      repository: aihubgg/MidJourney-Wiki
+      repository: SelfHostedHub/KubeSail-Template-Docs
       token: !ENV GH_TOKEN
   - social
   - external-markdown
