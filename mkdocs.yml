@@ -64,7 +64,9 @@ markdown_extensions:
         - pymdownx.magiclink
         - pymdownx.mark
         - pymdownx.smartsymbols
-        - pymdownx.superfences
+        - pymdownx.highlight:
+               anchor_linenums: true
+        - pymdownx.snippets
         - pymdownx.tabbed:
                   alternate_style: true
         - pymdownx.tasklist:
