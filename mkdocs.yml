@@ -13,6 +13,7 @@ nav:
                         - Authentication:
                                 - Overview: Template-Docs/Outline/Authentication/Overview.md
                                 - Google Sign In: Template-Docs/Outline/Authentication/Google.md
+                                - Microsoft/Azure Sign in: Template-Docs/Outline/Authentication/Microsoft-Azure.md
 
 theme:
         name: material

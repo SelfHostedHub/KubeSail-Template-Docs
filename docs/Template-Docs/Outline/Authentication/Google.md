@@ -2,9 +2,17 @@
 title: Outline Wiki Google Login
 description:  Outline Wiki Google Login Docs for KubeSail.com
 ---
+# Google
+`Using Google as an OAuth provider is only supported if you are using Google Workspace`
+# KubeSail Customization
+#### New Install or Exisiting Install of Outine
+1. Edit The App Values, and add the Variables noted above to `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`
+*If you know how to create all of this info, Scroll down to the Kubesail Customization Section*
+
 In this guide `docs.mycompany.com` will be used to represent the location you are hosting Outline, it should be replaced with the correct value.
 
-Using Google as an OAuth provider is only supported if you are using Google Workspace
+---
+# Google Credentials Guide
 
 ## Create a project
 
@@ -50,8 +58,4 @@ Using Google as an OAuth provider is only supported if you are using Google Work
 -   Make a note of the Client ID and Secret values
 
 
-## KubeSail Specific
 
-
-#### New Install or Exisiting Install of Outine
-1. Edit The App Values, and add the Variables noted above to `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`
