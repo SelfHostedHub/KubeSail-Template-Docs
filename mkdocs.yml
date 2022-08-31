@@ -75,11 +75,13 @@ plugins:
   - search # necessary for search to work
   - git-revision-date-localized:
       type: datetime
-  - git-authors
   - social
   - external-markdown
   - meta
   - tags
   - include-markdown
+  - git-committers:
+      repository: SelfHostedHub/KubeSail-Template-Docs
+      token: !ENV GH_TOKEN
 extra_css:
   - static/stylesheets/extra.css
