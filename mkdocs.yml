@@ -82,6 +82,7 @@ plugins:
   - include-markdown
   - git-committers:
       repository: SelfHostedHub/KubeSail-Template-Docs
+      branch: main
       token: !ENV GH_TOKEN
 extra_css:
   - static/stylesheets/extra.css
