@@ -17,12 +17,10 @@ description:  Outline Wiki Azure Login Docs for KubeSail.com
 4. Make sure to Delete the `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` Secret if you do not want Google as a login Method
 5. Add the Keys Listed Below. To add them, put the **Key First**, then hit Add. After its added, find it in the list ahd **then put the value of that key in.**
 	
-	 ``` 
-	 	 AZURE_CLIENT_ID
-	 	 AZURE_CLIENT_SECRET
-	     AZURE_RESOURCE_APP_ID
-	```
-	
+	- `AZURE_CLIENT_ID`
+	- `AZURE_CLIENT_SECRET`
+	- `AZURE_RESOURCE_APP_ID`
+
 6. After the Keys are Entered, Hit Save.
 7. After you save the Secret File, Go back to your [Outline Deployment](https://kubesail.com/dashboard/deployment/outline)
 9. Once at the outline Deployment, go to the `Status Tab` And Restart the Pods!
