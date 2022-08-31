@@ -9,9 +9,9 @@ nav:
         - Template Docs:
                 - Overview: Template-Docs/Overview.md
                 - Outline Wiki:
-                        - Overview: Template-Docs/Outline/Overview.md
+                        - Template-Docs/Outline/index.md
                         - Authentication:
-                                - Overview: Template-Docs/Outline/Authentication/Overview.md
+                                - Template-Docs/Outline/Authentication/index.md
                                 - Google Sign In: Template-Docs/Outline/Authentication/Google.md
                                 - Microsoft/Azure Sign in: Template-Docs/Outline/Authentication/Microsoft-Azure.md
 
@@ -30,6 +30,8 @@ theme:
                 - navigation.instant
                 - navigation.prune
                 - announce.dismiss
+                - navigation.tabs
+                - navigation.indexes
         palette:
                 - media: "(prefers-color-scheme: light)"
                   scheme: default
