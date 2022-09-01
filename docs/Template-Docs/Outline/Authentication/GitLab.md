@@ -26,6 +26,7 @@ GitLab authentication can be used through Outline’s support for OIDC authentic
 |OIDC_USERNAME_CLAIM | username |
 | OIDC_DISPLAY_NAME |GitLab|
 | OIDC_SCOPES | openid, email |
+
 6. After the Keys are Entered, Hit Save.
 7. After you save the Secret File, Go back to your [Outline Deployment](https://kubesail.com/dashboard/deployment/outline)
 8. Once at the outline Deployment, go to the `Status Tab` And Restart the Pods!
