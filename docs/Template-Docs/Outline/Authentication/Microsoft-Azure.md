@@ -9,12 +9,12 @@ description:  Outline Wiki Azure Login Docs for KubeSail.com
 
 #### New Install or Exisiting Install of Outine
 
-**NOTICE:** If you are installing fresh, **Please Install** With Random Values in the Google String. Due to the Limit of the Kubesail Editor, It will be easier.
+**NOTICE:** If you are installing fresh, **Please Install** With Random Values or Leave them Empty in the Google Strings. Due to the Limit of the Kubesail Editor, It will be easier.
 
 1. Make Sure you are in the namespace where you installed Outline.
 2. Click on the ["All Resources"](https://kubesail.com/dashboard/all) button so you can Find your Secrets File.
 3. Click on the Secret File labled `Secret/outline`
-4. Make sure to Delete the `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` Secret if you do not want Google as a login Method
+4. Make sure to Delete the `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` Secret if you do not want Google as a login Method. Google is the Defualt Login Method When Installed
 5. Add the Keys Listed Below. To add them, put the **Key First**, then hit Add. After its added, find it in the list ahd **then put the value of that key in.**
 	
 	- `AZURE_CLIENT_ID`
