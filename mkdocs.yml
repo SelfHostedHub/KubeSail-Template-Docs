@@ -7,17 +7,17 @@ edit_uri: edit/main/docs/
 nav:
         - Home: README.md
         - Template Docs:
-                - Overview: Template-Docs/Overview.md
+                - Overview: Templates/Overview.md
                 - Outline Wiki:
-                        - Template-Docs/Outline/index.md
+                        - Templates/Outline/index.md
                         - Authentication:
-                                - Template-Docs/Outline/Authentication/index.md
-                                - Google Sign In: Template-Docs/Outline/Authentication/Google.md
-                                - Microsoft/Azure Sign in: Template-Docs/Outline/Authentication/Microsoft-Azure.md
-                                - Slack Sign in: Template-Docs/Outline/Authentication/Slack.md
-                                - OIDC Sign in: Template-Docs/Outline/Authentication/OIDC.md
-                                - GitLab Sign in: Template-Docs/Outline/Authentication/GitLab.md
-                                - Email Magic Link: Template-Docs/Outline/Authentication/Email.md
+                                - Templates/Outline/Authentication/index.md
+                                - Google Sign In: Templates/Outline/Authentication/Google.md
+                                - Microsoft/Azure Sign in: Templates/Outline/Authentication/Microsoft-Azure.md
+                                - Slack Sign in: Templates/Outline/Authentication/Slack.md
+                                - OIDC Sign in: Templates/Outline/Authentication/OIDC.md
+                                - GitLab Sign in: Templates/Outline/Authentication/GitLab.md
+                                - Email Magic Link: Templates/Outline/Authentication/Email.md
 
 
 theme:
