@@ -2,7 +2,7 @@
 title: Outline Wiki ODIC Login
 description:  Outline Wiki ODIC Login Docs for KubeSail.com
 ---
-# ODIC
+# OIDC
 Outline supports all OIDC-compatible authentication providers out of the box. Currently the OIDC configuration must be provided manually as environment variables; the following values are supported:
 
 -   `OIDC_CLIENT_ID` – OAuth client ID

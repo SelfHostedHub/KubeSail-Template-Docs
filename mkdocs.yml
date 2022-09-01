@@ -15,7 +15,7 @@ nav:
                                 - Google Sign In: Template-Docs/Outline/Authentication/Google.md
                                 - Microsoft/Azure Sign in: Template-Docs/Outline/Authentication/Microsoft-Azure.md
                                 - Slack Sign in: Template-Docs/Outline/Authentication/Slack.md
-                                - ODIC Sign in: Template-Docs/Outline/Authentication/ODIC.md
+                                - OIDC Sign in: Template-Docs/Outline/Authentication/OIDC.md
                                 - GitLab Sign in: Template-Docs/Outline/Authentication/GitLab.md
                                 - Email Magic Link: Template-Docs/Outline/Authentication/Email.md
 
