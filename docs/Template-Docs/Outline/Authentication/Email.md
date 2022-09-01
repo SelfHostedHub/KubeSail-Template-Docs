@@ -1,3 +1,7 @@
+---
+title: Outline Wiki Email Login
+description:  Outline Wiki Email Magic Link Login Docs for KubeSail.com
+---
 # Email Magic Link
 Outline supports authentication via email “magic link”. Using this method users will enter their email address on the login page and be sent a single-use, time-restricted link to their email address which they can click to sign-in without a password.
 
